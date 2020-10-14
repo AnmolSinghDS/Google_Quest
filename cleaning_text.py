@@ -42,4 +42,3 @@ train['question_title'] = train['question_title'].apply(lambda x: clean_text(x))
 train['question_body'] = train['question_body'].apply(lambda x: clean_text(x))
 train['answer'] = train['answer'].apply(lambda x: clean_text(x))
 print(train.head())
-

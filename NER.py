@@ -12,5 +12,3 @@ for i in range (Quest_body.shape[0]):
     words = nltk.word_tokenize(Quest_body[i])
     tagged_words = nltk.pos_tag(words)
     named_ent = nltk.ne_chunk(tagged_words)
-    print(named_ent)
-
